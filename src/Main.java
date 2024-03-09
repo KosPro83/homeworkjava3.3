@@ -14,7 +14,7 @@ public class Main {
         double creditPayment = service.calculate(credit, creditRate, duration);
 
         // округляем до целого числа
-        String creditPaymentInteger = String.format("%.0f",creditPayment);
+        String creditPaymentInteger = String.format("%.0f", creditPayment);
         System.out.println("Сумма кредита: " + credit + " руб.");
         System.out.println("Годовая процентная ставка: " + creditRate + " %.");
         System.out.println("Срок кредита: " + duration + " лет.");
